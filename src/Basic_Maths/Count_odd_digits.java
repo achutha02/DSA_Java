@@ -17,3 +17,9 @@ public class Count_odd_digits {
         System.out.println(cnt);
     }
 }
+
+/*
+Time Complexity: O(log10(N)) – In every iteration we are dividing N by 10 (equivalent to the number of digits in N).
+
+Space Complexity: O(1) – Using only couple of variables i.e., constant space.
+ */

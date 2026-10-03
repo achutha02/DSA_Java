@@ -18,3 +18,9 @@ public class Factorial {
         }
     }
 }
+
+/*
+Time Complexity: O(N) – Iterating once from 1 to N.
+
+Space Complexity: O(1) – Using a couple of variables i.e., constant space.
+ */

@@ -20,3 +20,9 @@ public class Count_digits {
         }
     }
 }
+
+/*
+Time Complexity:  O(log10(N)) – In every iteration we are dividing N by 10.
+
+Space Complexity: O(1) – Using a couple of variables i.e., constant space.
+ */
