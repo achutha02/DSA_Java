@@ -13,7 +13,7 @@ public class Highest_Occurring_Element_Optimal {
         HashMap<Integer, Integer> mpp = new HashMap<>();
 
         for(int i=0;i<n;i++){
-            mpp.put(arr[i],mpp.getOrDefault(arr[i],0)+1);
+            mpp.put(arr[i],mpp.getOrDefault(arr[i],0)+1);   // .getOrDefault() returns the stored value of the key
         }
 
         for(Map.Entry<Integer, Integer> it: mpp.entrySet()){
